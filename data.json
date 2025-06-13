@@ -1,28 +1,28 @@
 {
-  "name": "Alex Shaw",
-  "title": "Full Stack Software Developer",
-  "bio": "Passionate about building scalable web applications and user experiences. Experienced in Python, JavaScript, and cloud technologies.",
-  "skills": ["Flask", "React", "PostgreSQL", "Node.js", "Express", "MongoDB"],
+  "name": "Isaiah Folken",
+  "title": "Future Computer Science Major",
+  "bio": "Passionate about learning more about technology and coding. Learning Python.",
+  "skills": ["Skill 1", "Skill 2", "Skill 3", "Skill 4", "Skill 5", "Skill 6"],
   "projects": [
     {
-      "name": "Note Taker",
-      "description": "A web platform for collaborative note-taking.",
-      "url": "https://github.com/yourusername/project-alpha",
+      "name": "PLACEHOLDER",
+      "description": "something something something.",
+      "url": "no current url",
       "tech_stack": ["Flask", "React", "PostgreSQL"],
       "screenshot": "static/screenshots/project-alpha.png",
       "demo_url": "https://project-alpha-demo.example.com"
     },
     {
-      "name": "Social Media Dupe",
-      "description": "A personal project mimicking popular social media sites.",
+      "name": "PLACEHOLDER 2",
+      "description": "something else, hopefully.",
       "url": "https://github.com/yourusername/devconnector",
       "tech_stack": ["Node.js", "Express", "MongoDB", "React"],
       "screenshot": "static/screenshots/devconnector.png",
       "demo_url": "https://devconnector-demo.example.com"
     },
     {
-      "name": "Web Development Capstone Project",
-      "description": "Final project for web development course.",
+      "name": "PLACEHOLDER 3",
+      "description": "the final something.",
       "url": "https://github.com/yourusername/devconnector",
       "tech_stack": ["Node.js", "Express", "MongoDB", "React"],
       "screenshot": "static/screenshots/devconnector.png",
@@ -30,7 +30,7 @@
     }
   ],
   "contact": {
-    "email": "alex.developer@email.com"
+    "email": "ifolken1021@gmail.com"
   },
   "social": [
     {
