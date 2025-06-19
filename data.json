@@ -45,10 +45,10 @@
     }
   ],
 "color_scheme": { 
-  "primary": "#2ecc71",        // a vibrant emerald green 
-  "secondary": "#1c1c1c",      // dark charcoal gray 
-  "background": "#0d1117",     // deep graphite background 
-  "text": "#e5e5e5",           // soft light gray for readability 
-  "accent": "#27ae60"          // slightly darker green for contrast 
+  "primary": "#2ecc71",
+  "secondary": "#1c1c1c",
+  "background": "#0d1117",
+  "text": "#e5e5e5",
+  "accent": "#27ae60"
 }
 }
