@@ -1,9 +1,9 @@
 :root {
-    --primary: #2d72d9;
-    --secondary: #e3eafc;
-    --background: #f8fafc;
-    --text: #222;
-    --accent: #fff;
+    --primary: #28a745;
+    --secondary: #121212;
+    --background: #0b0f12;
+    --text: #d4dcdc;
+    --accent: #1e7e34;
 }
 html { scroll-behavior: smooth; }
 body {
