@@ -44,11 +44,11 @@
       "icon": "bi-github"
     }
   ],
-"color_scheme": { 
-  "primary": "#2ecc71",
-  "secondary": "#1c1c1c",
-  "background": "#0d1117",
-  "text": "#e5e5e5",
-  "accent": "#27ae60"
+"color_scheme": {
+  "primary": "#28a745",
+  "secondary": "#121212",
+  "background": "#0b0f12",
+  "text": "#d4dcdc",
+  "accent": "#1e7e34"
 }
 }
