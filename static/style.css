@@ -39,10 +39,10 @@ body {
 .section {
     padding: 96px 0 96px 0;
 }
-#contact {
+.section {
   background: var(--background);
 }
-#skills {
+.avatar {
     background: var(--secondary);
     padding: 96px 0;
 }
