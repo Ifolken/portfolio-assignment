@@ -99,13 +99,13 @@ body {
     border-color: var(--primary);
 }
 .btn-success {
-    background: #eafaf1;
-    color: #198754;
+    background: #14532d;
+    color: #d4dcdc;
     border: none;
 }
 .btn-success:hover, .btn-success:focus {
-    background: #198754;
-    color: #0b0f12;
+    background: #1e7e34;
+    color: #ffffff;
 }
 .fade-section {
     opacity: 0;
@@ -121,14 +121,14 @@ body {
     font-size: 1em;
     padding: 0.4em 1.2em;
     border: 1px solid #eaeaea;
-    background: #0b0f12;
+    background: #fff;
     color: var(--primary);
     margin-bottom: 8px;
     margin-right: 8px;
 }
 .filter-btn.active, .filter-btn:focus {
     background: var(--primary);
-    color: #0b0f12;
+    color: #fff;
     border-color: var(--primary);
 }
 .card-title {
@@ -138,7 +138,7 @@ body {
 }
 .card-text {
     font-size: 1.01em;
-    color: #0b0f12;
+    color: #fff;
     margin-bottom: 1.2rem;
 }
 .contact-btn {
