@@ -39,6 +39,13 @@ body {
 .section {
     padding: 96px 0 96px 0;
 }
+#contact {
+  background: var(--background);
+}
+#skills {
+    background: var(--secondary);
+    padding: 96px 0;
+}
 .avatar {
     width: 100px;
     height: 100px;
