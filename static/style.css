@@ -105,7 +105,7 @@ body {
 }
 .btn-success:hover, .btn-success:focus {
     background: #198754;
-    color: #fff;
+    color: #0b0f12;
 }
 .fade-section {
     opacity: 0;
@@ -121,14 +121,14 @@ body {
     font-size: 1em;
     padding: 0.4em 1.2em;
     border: 1px solid #eaeaea;
-    background: #fff;
+    background: #0b0f12;
     color: var(--primary);
     margin-bottom: 8px;
     margin-right: 8px;
 }
 .filter-btn.active, .filter-btn:focus {
     background: var(--primary);
-    color: #fff;
+    color: #0b0f12;
     border-color: var(--primary);
 }
 .card-title {
@@ -138,7 +138,7 @@ body {
 }
 .card-text {
     font-size: 1.01em;
-    color: #555;
+    color: #0b0f12;
     margin-bottom: 1.2rem;
 }
 .contact-btn {
