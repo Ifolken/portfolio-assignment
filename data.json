@@ -35,12 +35,12 @@
   "social": [
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/alexdeveloper",
+      "url": "https://www.linkedin.com/?trk=public_profile_nav-header-logo",
       "icon": "bi-linkedin"
     },
     {
       "name": "GitHub",
-      "url": "https://github.com/yourusername",
+      "url": "https://github.com/Ifolken",
       "icon": "bi-github"
     }
   ],
