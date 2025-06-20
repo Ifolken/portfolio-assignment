@@ -153,7 +153,8 @@ body {
 }
 
 .fw-bold.text-primary.mb-3 {
-    font-size: 2.2rem; /* moved from inline style */
+    font-size: 2.2rem;
+    color: var(--primary); /* overrides Bootstrap blue */
 }
 
 .text-muted.mb-4 {
