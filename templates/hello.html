@@ -33,7 +33,7 @@
     <!-- About Section -->
     <section class="section text-center fade-section" id="about">
         <div class="container">
-            <h1 class="fw-bold text-primary mb-3">{{ profile.name }}</h1>
+            <h1 class="fw-bold mb-3">{{ profile.name }}</h1>
             <div class="text-muted mb-4">{{ profile.title }}</div>
             <p class="mx-auto mb-0">{{ profile.bio }}</p>
         </div>
@@ -80,7 +80,7 @@
                         {% endif %}
                         <div class="card-body">
                             <h5 class="card-title">
-                                <a href="{{ project.url }}" target="_blank" class="text-decoration-none text-primary">{{ project.name }}</a>
+                                <a href="{{ project.url }}" target="_blank" class="text-decoration-none" style="color: var(--primary);">{{ project.name }}</a>
                             </h5>
                             <p class="card-text">{{ project.description }}</p>
                             {% if project.tech_stack %}
