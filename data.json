@@ -1,16 +1,16 @@
 {
   "name": "Isaiah Folken",
   "title": "Future Computer Science Major",
-  "bio": "Passionate about learning more about technology and coding. Learning Python.",
-  "skills": ["Microsoft 365", "Adobe Products", "Skill 3", "Skill 4", "Skill 5", "Skill 6"],
+  "bio": "Passionate about learning more about technology and coding. I have a lot of Video Editing experience as well. Currently learning Python.",
+  "skills": ["Microsoft 365", "Adobe Products", "Videography", "Skill 4", "Skill 5", "Skill 6"],
   "projects": [
     {
-      "name": "PLACEHOLDER",
-      "description": "something something something.",
-      "url": "no current url",
+      "name": "Videography for CEF",
+      "description": "I've done a lot of videography projects for CEF, creating many of their promitional videos every year.",
+      "url": "https://youtu.be/k8Km9ROWln0?si=Tz7wXDisl7GiwIq7",
       "tech_stack": ["Flask", "React", "PostgreSQL"],
       "screenshot": "static/screenshots/project-alpha.png",
-      "demo_url": "https://project-alpha-demo.example.com"
+      "demo_url": "nothing here currently"
     },
     {
       "name": "PLACEHOLDER 2",
@@ -29,9 +29,10 @@
       "demo_url": "https://devconnector-demo.example.com"
     }
   ],
-  "contact": {
-    "email": "ifolken1021@gmail.com"
-  },
+ "contact": {
+  "email": "ifolken1021@gmail.com",
+  "message": "Feel free to reach out about tech, projects, or collaboration ideas!"
+},
   "social": [
     {
       "name": "LinkedIn",
