@@ -75,8 +75,18 @@
                 {% for project in profile.projects %}
                 <div class="col-md-6 col-lg-4 project-item" data-tech="{{ project.tech_stack|join(',') }}">
                     <div class="card project-card h-100">
-                        {% if project.screenshot %}
-                        <img src="{{ url_for('static', filename=project.screenshot.replace('static/', '')) }}" class="card-img-top" alt="{{ project.name }} screenshot">
+                        {% if project.type == "video" %}
+                        <iframe 
+                            src="{{ project.url }}" 
+                            class="card-img-top"
+                            height="315"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+                        {% elif project.screenshot %}
+                        <img src="{{ url_for('static', filename=project.screenshot.replace('static/', '')) }}" 
+                            class="card-img-top" 
+                            alt="{{ project.name }} screenshot">
                         {% endif %}
                         <div class="card-body">
                             <h5 class="card-title">
