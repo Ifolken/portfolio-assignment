@@ -19,9 +19,9 @@
       "url": "https://www.youtube.com/@thelaughingboys3",
       "tech_stack": ["Video Editing", "Videography", "Adobe Premiere Pro", "Adobe After Effects"],
       "screenshot": "static/camera.png",
-      "demo_url": "..."
+      "demo_url": "...",
       "type": "video"
-    },
+    }
   ],
  "contact": {
   "email": "ifolken1021@gmail.com",
