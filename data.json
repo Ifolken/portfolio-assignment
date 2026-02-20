@@ -1,38 +1,31 @@
 {
   "name": "Isaiah Folken",
-  "title": "Future Computer Science Major",
-  "bio": "Passionate about learning more about technology and coding. I have a lot of Video Editing experience as well. Currently learning Python.",
-  "skills": ["Microsoft 365", "Adobe Products", "Videography", "Skill 4", "Skill 5", "Skill 6"],
+  "title": "Communications Major in Videography",
+  "bio": "Passionate about gaining skill in Videography. I have a adequate amount of current experience and am continuously taking on new projects.",
+  "skills": ["Adobe Premiere Pro", "Adobe After EFfects", "Videography", "Video Editing"],
   "projects": [
     {
-  "name": "Videography for CEF",
-  "description": "I've done a lot of videography projects for CEF...",
-  "url": "https://youtu.be/...",
-  "tech_stack": ["Video Editing", "Videography", "Visual Effects"],
+  "name": "Promotional Videography for CEF",
+  "description": "Filming and editing short videos for promotional content.",
+  "url": "https://youtu.be/k8Km9ROWln0?si=ONg720SNJFmKwPQi",
+  "tech_stack": ["Video Editing", "Videography", "Adobe After Effects"],
   "screenshot": "static/camera.png",
-  "demo_url": "nothing here currently",
+  "demo_url": "...",
   "type": "video"
 }  ,
     {
-      "name": "PLACEHOLDER 2",
-      "description": "something else, hopefully.",
-      "url": "https://github.com/yourusername/devconnector",
-      "tech_stack": ["Node.js", "Express", "MongoDB", "React"],
-      "screenshot": "static/screenshots/devconnector.png",
-      "demo_url": "https://devconnector-demo.example.com"
+      "name": "Youtube Channels",
+      "description": "Editing short-form content for people's Youtube channels, as well as my own.",
+      "url": "https://www.youtube.com/@thelaughingboys3",
+      "tech_stack": ["Video Editing", "Videography", "Adobe Premiere Pro", "Adobe After Effects"],
+      "screenshot": "static/camera.png",
+      "demo_url": "..."
+      "type": "video"
     },
-    {
-      "name": "PLACEHOLDER 3",
-      "description": "the final something.",
-      "url": "https://github.com/yourusername/devconnector",
-      "tech_stack": ["Node.js", "Express", "MongoDB", "React"],
-      "screenshot": "static/screenshots/devconnector.png",
-      "demo_url": "https://devconnector-demo.example.com"
-    }
   ],
  "contact": {
   "email": "ifolken1021@gmail.com",
-  "message": "Feel free to reach out about tech, projects, or collaboration ideas!"
+  "message": "Feel free to reach out about videography, projects, or filming opportunities!"
 },
   "social": [
     {
