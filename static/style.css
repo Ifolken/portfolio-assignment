@@ -216,3 +216,6 @@ html {
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
 }
+body {
+  transition: background 0.3s, color 0.3s;
+}
