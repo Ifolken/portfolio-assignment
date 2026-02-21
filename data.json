@@ -1,13 +1,13 @@
 {
   "name": "Isaiah Folken",
   "title": "Communications Major in Videography",
-  "bio": "Passionate about gaining skill in Videography. I have a adequate amount of current experience and am continuously taking on new projects.",
-  "skills": ["Adobe Premiere Pro", "Adobe After EFfects", "Videography", "Video Editing"],
+  "bio": "Passionate about gaining skill in Videography. I have a moderate amount of current experience and am continuously taking on new projects.",
+  "skills": ["Adobe Premiere Pro", "Adobe After Effects", "Videography", "Video Editing"],
   "projects": [
     {
   "name": "Promotional Videography for CEF",
   "description": "Filming and editing short videos for promotional content.",
-  "tech_stack": ["Video Editing", "Videography", "Adobe After Effects"],
+  "tech_stack": ["Video Editing", "Videography", "Premiere Pro"],
   "url": "https://www.youtube.com/@cefofomaha1937",
   "button_text": "CEF of Omaha",
   "demo_url": "...",
