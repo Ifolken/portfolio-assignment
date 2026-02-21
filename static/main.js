@@ -74,3 +74,23 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+/* ===============================
+   FEATURED VIDEOS CLICK-TO-LOAD
+================================ */
+const videoWrappers = document.querySelectorAll(".video-wrapper");
+
+videoWrappers.forEach(wrapper => {
+    wrapper.addEventListener("click", function () {
+        const videoId = this.dataset.videoId;
+        this.innerHTML = `
+            <iframe 
+                src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
+                style="width:100%; height:100%;"
+            ></iframe>
+        `;
+    });
+});
