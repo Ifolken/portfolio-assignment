@@ -92,24 +92,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const toggleBtn = document.getElementById("theme-toggle");
-
-    // Check if user already has a preference saved
-    const savedTheme = localStorage.getItem("theme");
-    if (savedTheme) {
-        document.body.setAttribute("data-theme", savedTheme);
-    }
-
-    toggleBtn.addEventListener("click", () => {
-        const currentTheme = document.body.getAttribute("data-theme") || "light";
-        const newTheme = currentTheme === "light" ? "dark" : "light";
-        document.body.setAttribute("data-theme", newTheme);
-
-        // Save preference so it persists
-        localStorage.setItem("theme", newTheme);
-    });
-});
-</script>
