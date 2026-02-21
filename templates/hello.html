@@ -108,11 +108,8 @@
                                 {% endif %}
                                 {% if project.type == "video" %}
                                 <a href="{{ project.url }}" target="_blank" class="btn btn-outline-light btn-sm mt-2">
-                                <img src="{{ url_for('static', filename='camera.png') }}" alt="Video icon" style="height: 1em; margin-right: 6px;"> Video
-                                </a>
-                                {% else %}
-                                <a href="{{ project.url }}" target="_blank" class="btn btn-outline-primary btn-sm mt-2">
-                                <i class="bi bi-github"></i> Code
+                                <img src="{{ url_for('static', filename='youtube.svg') }}" alt="YouTube" style="height: 1em; margin-right: 6px;">
+                                Channel
                                 </a>
                                 {% endif %}
                             </div>
