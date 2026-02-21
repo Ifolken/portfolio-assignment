@@ -37,35 +37,35 @@
 "featured_videos": [
     {
         "name": "CYIA 2024 Official Video",
-        "url": "https://www.youtube.com/embed/ucV0MH1zZmE?start=3",
+        "youtube_id": "ucV0MH1zZmE",
         "description": "A recap video for the CYIA 2024 training camp week."
     },
     {
         "name": "CEF of Omaha 2024 Blitz Video",
-        "url": "https://www.youtube.com/embed/VIyYxTIzapI?si=5oMwnsQt57OQoTVm",
+        "youtube_id": "VIyYxTIzapI",
         "description": "A recap video of the 2024 Omaha Blitz."
     },
     {
         "name": "CEF of Omaha 2025 Official Video",
-        "url": "https://www.youtube.com/embed/k8Km9ROWln0?si=9EG9o3z7CMXW7Qy9",
+        "youtube_id": "k8Km9ROWln0",
         "description": "A recap video for the CYIA 2025 training camp week."
     },
     {
         "name": "CEF of Omaha 2025 Blitz Video",
-        "url": "https://www.youtube.com/embed/snYlV_L8r8Y",
+        "youtube_id": "snYlV_L8r8Y",
         "description": "A recap video of the 2025 Omaha Blitz."
     },
     {
         "name": "Doorlock Combs and the Kidnapping of Justin Beaver",
-        "url": "https://www.youtube.com/embed/akJxSr8RrEI",
+        "youtube_id": "akJxSr8RrEI",
         "description": "A Sherlock Holmes mystery!"
     },
     {
-        "name": "TITAN by Sam Bowman - A Stick Guys Animationr",
-        "url": "https://www.youtube.com/embed/UETs17Pte1Y",
+        "name": "TITAN by Sam Bowman - A Stick Guys Animation",
+        "youtube_id": "UETs17Pte1Y",
         "description": "A stick person animation video."
     }
-],
+]
  "contact": {
   "email": "ifolken1021@gmail.com",
   "message": "Feel free to reach out about videography, projects, or filming opportunities!"
