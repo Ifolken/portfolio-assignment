@@ -200,3 +200,10 @@ body {
         transform: translateY(0);
     }
 }
+.video-wrapper img {
+    transition: transform 0.3s ease;
+}
+
+.video-wrapper:hover img {
+    transform: scale(1.05);
+}
