@@ -9,6 +9,7 @@
   "description": "Filming and editing short videos for promotional content.",
   "tech_stack": ["Video Editing", "Videography", "Adobe After Effects"],
   "url": "https://www.youtube.com/@cefofomaha1937",
+  "button_text": "CEF of Omaha",
   "demo_url": "...",
   "type": "video"
 }  ,
@@ -19,6 +20,7 @@
       "tech_stack": ["Video Editing", "Videography", "Adobe Premiere Pro", "Adobe After Effects"],
       "screenshot": "static/camera.png",
       "url": "https://www.youtube.com/@thelaughingboys3",
+      "button_text": "The Laughing Boys",
       "demo_url": "...",
       "type": "video"
     }
