@@ -8,6 +8,7 @@
   "name": "Promotional Videography for CEF",
   "description": "Filming and editing short videos for promotional content.",
   "tech_stack": ["Video Editing", "Videography", "Adobe After Effects"],
+  "url": "https://www.youtube.com/@cefofomaha1937",
   "demo_url": "...",
   "type": "video"
 }  ,
@@ -17,6 +18,7 @@
       "url": "https://www.youtube.com/@thelaughingboys3",
       "tech_stack": ["Video Editing", "Videography", "Adobe Premiere Pro", "Adobe After Effects"],
       "screenshot": "static/camera.png",
+      "url": "https://www.youtube.com/@thelaughingboys3",
       "demo_url": "...",
       "type": "video"
     }
