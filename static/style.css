@@ -219,3 +219,27 @@ html {
 body {
   transition: background 0.3s, color 0.3s;
 }
+/* Default (light) */
+body {
+    --background: #ffffff;
+    --text: #111111;
+    --primary: #28a745;
+}
+
+/* Dark theme */
+body[data-theme="dark"] {
+    --background: #0b0f12;
+    --text: #d4dcdc;
+    --primary: #1e7e34;
+}
+
+/* Use the variables */
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.btn-outline-primary {
+    border-color: var(--primary);
+    color: var(--primary);
+}
