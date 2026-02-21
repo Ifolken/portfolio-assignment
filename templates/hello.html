@@ -55,6 +55,7 @@
 <section class="section fade-section" id="projects">
     <div class="container">
         <div class="section-title text-center"><i class="bi bi-folder2-open"></i> Projects</div>
+        
         <!-- Filter Bar -->
         <div class="mb-5 text-center">
             <span class="me-2 fw-bold">Filter:</span>
@@ -76,9 +77,10 @@
             {% for project in profile.projects %}
             <div class="col-md-6 col-lg-4 project-item" data-tech="{{ project.tech_stack|join(',') }}">
                 <div class="card project-card h-100">
-                    {% if project.type == "video" %}
+                    
+                    {% if project.type == "video" and project.demo_url %}
                     <iframe 
-                        src="{{ project.url }}" 
+                        src="{{ project.demo_url }}" 
                         class="card-img-top"
                         height="315"
                         frameborder="0"
@@ -86,8 +88,8 @@
                     </iframe>
                     {% elif project.screenshot %}
                     <img src="{{ url_for('static', filename=project.screenshot.replace('static/', '')) }}" 
-                        class="card-img-top" 
-                        alt="{{ project.name }} screenshot">
+                         class="card-img-top" 
+                         alt="{{ project.name }} screenshot">
                     {% endif %}
 
                     <div class="card-body">
@@ -104,12 +106,11 @@
                         </div>
                         {% endif %}
 
-                        {% if project.type == "video" %}
+                        <!-- Always show the button -->
                         <a href="{{ project.url }}" target="_blank" class="btn btn-outline-light btn-sm mt-2">
                             <img src="{{ url_for('static', filename='youtube.svg') }}" alt="YouTube" style="height: 1em; margin-right: 6px;">
                             Channel
                         </a>
-                        {% endif %}  
                     </div> <!-- end card-body -->
                 </div> <!-- end card -->
             </div> <!-- end col -->
