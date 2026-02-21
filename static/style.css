@@ -207,3 +207,7 @@ body {
 .video-wrapper:hover img {
     transform: scale(1.05);
 }
+html {
+  scroll-padding-top: 120px; /* match your navbar height + some buffer */
+  scroll-behavior: smooth;   /* optional: smooth scrolling */
+}
