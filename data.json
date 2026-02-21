@@ -14,16 +14,25 @@
   "type": "video"
 }  ,
     {
-      "name": "Youtube Channels",
-      "description": "Editing short-form content for people's Youtube channels, as well as my own.",
+      "name": "The Laughing Boys",
+      "description": "Filming and editing content for my Youtube channel with my friends.",
       "url": "https://www.youtube.com/@thelaughingboys3",
       "tech_stack": ["Video Editing", "Videography", "Adobe Premiere Pro", "Adobe After Effects"],
       "screenshot": "static/camera.png",
-      "url": "https://www.youtube.com/@thelaughingboys3",
       "button_text": "The Laughing Boys",
       "demo_url": "...",
       "type": "video"
-    }
+    } ,
+      {
+        "name": "Stick Guys",
+        "description": "Editing and Animating content for Christian music!",
+        "url": "https://www.youtube.com/@stickguyanimating",
+        "tech_stack": ["Video Editing", "Adobe Premiere Pro"],
+        "screenshot": "static/camera.png",
+        "button_text": "Stick Guys",
+        "demo_url": "...",
+        "type": "video"
+      }
   ],
 "featured_videos": [
     {
