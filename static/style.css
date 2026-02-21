@@ -211,3 +211,8 @@ html {
   scroll-padding-top: 120px; /* match your navbar height + some buffer */
   scroll-behavior: smooth;   /* optional: smooth scrolling */
 }
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
