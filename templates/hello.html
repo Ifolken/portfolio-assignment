@@ -106,10 +106,13 @@
                         </div>
                         {% endif %}
 
-                        <!-- Always show the button -->
-                        <a href="{{ project.url }}" target="_blank" class="btn btn-outline-light btn-sm mt-2">
+                        <!-- Project Button -->
+                        <a href="{{ project.url }}" target="_blank" class="btn btn-sm mt-2"
+                           style="background-color: var(--primary); color: #fff; border-color: var(--primary);">
+                            {% if project.type == "video" %}
                             <img src="{{ url_for('static', filename='youtube.svg') }}" alt="YouTube" style="height: 1em; margin-right: 6px;">
-                            Channel
+                            {% endif %}
+                            {{ project.button_text|default('View Project') }}
                         </a>
                     </div> <!-- end card-body -->
                 </div> <!-- end card -->
