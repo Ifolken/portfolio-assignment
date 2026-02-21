@@ -31,15 +31,28 @@
         </div>
     </nav>
 
-    <!-- About Section -->
-    <section class="section text-center fade-section" id="about">
-        <div class="container">
-            <h1 class="fw-bold mb-3">{{ profile.name }}</h1>
-            <div class="mb-4" style="color: var(--text);">{{ profile.title }}</div>
-            <p class="mx-auto mb-0" style="color: var(--text);">{{ profile.bio }}</p>
-        </div>
-    </section>
+ <!-- About Section -->
+<section class="section text-center fade-section" id="about">
+    <div class="container">
 
+        <div class="profile-wrapper mb-4">
+            <img src="{{ url_for('static', filename='profile.jpg') }}" 
+                 alt="Profile Picture"
+                 class="profile-pic">
+
+            <h1 class="fw-bold mt-4">{{ profile.name }}</h1>
+            <div class="mb-3" style="color: var(--text);">
+                {{ profile.title }}
+            </div>
+        </div>
+
+        <p class="mx-auto mb-0" style="color: var(--text); max-width: 700px;">
+            {{ profile.bio }}
+        </p>
+
+    </div>
+</section>
+    
     <!-- Skills Section -->
     <section class="section fade-section" id="skills" style="background: var(--background);">
         <div class="container text-center">
