@@ -246,7 +246,7 @@ body {
     margin-top: auto;
 }
 .project-media {
-    height: 140px;        /* 👈 adjust this (main control) */
+    height: 100px;        /* 👈 adjust this (main control) */
     overflow: hidden;
     border-radius: 12px;
 }
