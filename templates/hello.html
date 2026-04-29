@@ -96,11 +96,10 @@
             <div class="col-md-6 col-lg-4 project-item" data-tech="{{ project.tech_stack|join(',') }}">
                 <div class="card project-card h-100">
                     
-                    <div class="ratio ratio-16x9 mb-3">
-    {% if project.type == "video" and project.demo_url %}
+<div class="project-media mb-3 ratio ratio-16x9">
+    {% if project.type == "video" and project.demo_url and project.demo_url != "..." %}
         <iframe 
             src="{{ project.demo_url }}" 
-            frameborder="0" 
             allowfullscreen>
         </iframe>
     {% elif project.screenshot %}
