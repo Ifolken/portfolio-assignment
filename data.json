@@ -32,6 +32,16 @@
         "button_text": "Stick Guys",
         "demo_url": "...",
         "type": "video"
+      },
+        {
+        "name": "Isaiah F",
+        "description": "Personal projects that I've undertaken. Vlogs, short narratives, and other content.",
+        "url": "https://www.youtube.com/@IFVideos0726",
+        "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction", "Videography"],
+        "screenshot": "static/camera.png",
+        "button_text": "Isaia F",
+        "demo_url": "...",
+        "type": "video"
       }
   ],
 "featured_videos": [
