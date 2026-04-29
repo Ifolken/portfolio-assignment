@@ -270,7 +270,7 @@ body {
     object-fit: cover;
 }
 .project-media {
-    height: 140px;   /* 👈 THIS controls box height */
+    height: 100px;   /* 👈 THIS controls box height */
     overflow: hidden;
     border-radius: 12px;
 }
