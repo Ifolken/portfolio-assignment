@@ -246,40 +246,15 @@ body {
     margin-top: auto;
 }
 .project-media {
-    height: 180px;
+    height: 140px;        /* 👈 adjust this (main control) */
     overflow: hidden;
     border-radius: 12px;
-    background: #000; /* prevents weird gaps */
 }
-
-/* 🔥 THIS is the key fix */
 .project-media iframe,
 .project-media img {
     width: 100%;
     height: 100%;
     display: block;
-}
-
-/* make images crop nicely */
-.project-media img {
-    object-fit: cover;
-}
-
-/* force iframe to behave like image */
-.project-media iframe {
-    object-fit: cover;
-}
-.project-media {
-    height: 100px;   /* 👈 THIS controls box height */
-    overflow: hidden;
-    border-radius: 12px;
-}
-
-.project-media iframe,
-.project-media img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     border: 0;
-    display: block;
 }
