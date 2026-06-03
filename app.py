@@ -48,6 +48,13 @@ def home():
     # Render the hello.html template, passing in the profile data
     return render_template("hello.html", profile=profile)
 
+@app.route("/videos")
+def videos():
+    data_path = os.path.join(os.path.dirname(__file__), "data.json")
+    profile = load_profile_data(data_path)
+    profile["projects"] = [vars(p) for p in profile["projects"]]
+    return render_template("videos.html", profile=profile)
+
 # If this file is run directly, start the Flask web server
 if __name__ == "__main__":
     app.run(debug=True)
