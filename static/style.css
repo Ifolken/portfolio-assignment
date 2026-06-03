@@ -238,3 +238,6 @@ body {
 .project-card .card-body .btn {
     margin-top: auto;
 }
+#project-track {
+    overflow: hidden !important;
+}
