@@ -73,71 +73,63 @@
 <section class="section fade-section" id="projects">
     <div class="container">
         <div class="section-title text-center"><i class="bi bi-folder2-open"></i> Projects</div>
-        
-        <!-- Filter Bar -->
-        <div class="mb-5 text-center">
-            <span class="me-2 fw-bold">Filter:</span>
-            <button class="filter-btn active" data-tech="all">All</button>
-            {% set all_techs = [] %}
-            {% for project in profile.projects %}
-                {% for tech in project.tech_stack %}
-                    {% if tech not in all_techs %}
-                        {% set _ = all_techs.append(tech) %}
-                    {% endif %}
-                {% endfor %}
-            {% endfor %}
-            {% for tech in all_techs %}
-                <button class="filter-btn" data-tech="{{ tech }}">{{ tech }}</button>
-            {% endfor %}
-        </div>
 
-        <div class="row g-5 justify-content-center" id="project-list">
-            {% for project in profile.projects %}
-            <div class="col-md-6 col-lg-4 project-item" data-tech="{{ project.tech_stack|join(',') }}">
-                <div class="card project-card h-100">
-                    
-                    {% if project.type == "video" and project.demo_url %}
-                    <iframe 
-                        src="{{ project.demo_url }}" 
-                        class="card-img-top"
-                        height="315"
-                        frameborder="0"
-                        allowfullscreen>
-                    </iframe>
-                    {% elif project.screenshot %}
-                    <img src="{{ url_for('static', filename=project.screenshot.replace('static/', '')) }}" 
-                         class="card-img-top" 
-                         alt="{{ project.name }} screenshot">
+        <div class="d-flex align-items-center gap-3">
+            <!-- Left Arrow -->
+            <button id="proj-prev" onclick="scrollProjects(-1)" class="btn btn-outline-secondary rounded-circle" style="min-width:42px; height:42px;">&#8592;</button>
+
+            <!-- Scrollable Cards -->
+            <div id="project-track" style="display:flex; gap:1.5rem; overflow:hidden; scroll-behavior:smooth; width:100%;">
+                {% for project in profile.projects %}
+                <div class="project-card" style="min-width:30%; max-width:30%; flex-shrink:0;">
+                    <h5 class="card-title">
+                        <a href="{{ project.url }}" target="_blank" class="text-decoration-none" style="color: var(--primary);">{{ project.name }}</a>
+                    </h5>
+                    <p class="card-text">{{ project.description }}</p>
+
+                    {% if project.tech_stack %}
+                    <div class="mb-3">
+                        {% for tech in project.tech_stack %}
+                            <span class="badge bg-light text-secondary border px-2 py-1 small">{{ tech }}</span>
+                        {% endfor %}
+                    </div>
                     {% endif %}
 
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            <a href="{{ project.url }}" target="_blank" class="text-decoration-none" style="color: var(--primary);">{{ project.name }}</a>
-                        </h5>
-                        <p class="card-text">{{ project.description }}</p>
-
-                        {% if project.tech_stack %}
-                        <div class="mb-3">
-                            {% for tech in project.tech_stack %}
-                                <span class="badge bg-light text-secondary border px-2 py-1 small">{{ tech }}</span>
-                            {% endfor %}
-                        </div>
+                    <a href="{{ project.url }}" target="_blank" class="btn btn-sm mt-auto"
+                       style="background-color: var(--primary); color: #fff; border-color: var(--primary);">
+                        {% if project.type == "video" %}
+                        <img src="{{ url_for('static', filename='youtube.svg') }}" alt="YouTube" style="height: 1em; margin-right: 6px;">
                         {% endif %}
+                        {{ project.button_text|default('View Channel') }}
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
 
-                        <!-- Project Button -->
-                        <a href="{{ project.url }}" target="_blank" class="btn btn-sm mt-2"
-                           style="background-color: var(--primary); color: #fff; border-color: var(--primary);">
-                            {% if project.type == "video" %}
-                            <img src="{{ url_for('static', filename='youtube.svg') }}" alt="YouTube" style="height: 1em; margin-right: 6px;">
-                            {% endif %}
-                            {{ project.button_text|default('View Channel') }}
-                        </a>
-                    </div> <!-- end card-body -->
-                </div> <!-- end card -->
-            </div> <!-- end col -->
-            {% endfor %}
-        </div> <!-- end row -->
-    </div> <!-- end container -->
+            <!-- Right Arrow -->
+            <button id="proj-next" onclick="scrollProjects(1)" class="btn btn-outline-secondary rounded-circle" style="min-width:42px; height:42px;">&#8594;</button>
+        </div>
+    </div>
+
+    <script>
+        let projIndex = 0;
+        const track = document.getElementById('project-track');
+        const cards = track.children;
+        const visible = 3;
+
+        function scrollProjects(dir) {
+            const total = cards.length;
+            projIndex = Math.max(0, Math.min(projIndex + dir, total - visible));
+            const cardWidth = cards[0].offsetWidth + 24; // 24 = gap
+            track.scrollLeft = projIndex * cardWidth;
+
+            document.getElementById('proj-prev').disabled = projIndex === 0;
+            document.getElementById('proj-next').disabled = projIndex >= total - visible;
+        }
+
+        // Set initial arrow states
+        document.getElementById('proj-prev').disabled = true;
+    </script>
 </section>
 
     <!-- Contact Section -->
