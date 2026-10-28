@@ -2,12 +2,12 @@
   "name": "Isaiah Folken",
   "title": "Communications Major in Videography",
   "bio": "I am passionate about creating effective video content. I have a moderate amount of current experience and am continuously taking on new projects, whether professional or personal.",
-  "skills": ["Adobe Premiere Pro", "Adobe After Effects", "Videography", "Video Editing", "Motion Graphics", "Adobe Photoshop", "Creative Direction"],
+  "skills": ["Adobe Premiere Pro", "Adobe After Effects", "Videography", "Video Editing", "Motion Graphics", "Creative Direction"],
   "projects": [
     {
   "name": "Promotional Videography for CEF",
   "description": "Filming and editing short videos for promotional content.",
-  "tech_stack": ["Video Editing", "Videography", "Adobe Premiere Pro", "Motion Graphics", "Adobe Photoshop", "Creative Direction", "Adobe After Effects"],
+  "tech_stack": ["Video Editing", "Videography", "Adobe Premiere Pro", "Motion Graphics", "Creative Direction", "Adobe After Effects"],
   "url": "https://www.youtube.com/@cefofomaha1937",
   "button_text": "CEF of Omaha",
   "demo_url": "...",
@@ -129,9 +129,9 @@
       "icon": "bi-linkedin"
     },
     {
-      "name": "GitHub",
-      "url": "https://github.com/Ifolken",
-      "icon": "bi-github"
+      "name": "Instagram",
+      "url": "https://www.instagram.com/ifolken10/",
+      "icon": "bi-instagram"
     }
   ],
 "color_scheme": {
