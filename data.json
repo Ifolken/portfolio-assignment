@@ -14,6 +14,16 @@
   "type": "video"
 }  ,
     {
+      "name": "Isaiah F",
+      "description": "Personal projects that I've undertaken. Vlogs, short narratives, and other content.",
+      "url": "https://www.youtube.com/@IFVideos0726",
+      "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction", "Videography"],
+      "screenshot": "static/camera.png",
+      "button_text": "Isaiah F",
+      "demo_url": "...",
+      "type": "video"
+      },
+    {
       "name": "The Laughing Boys",
       "description": "Filming and editing content for my Youtube channel with my friends.",
       "url": "https://www.youtube.com/@thelaughingboys3",
@@ -30,16 +40,6 @@
         "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction"],
         "screenshot": "static/camera.png",
         "button_text": "Stick Guys",
-        "demo_url": "...",
-        "type": "video"
-      },
-        {
-        "name": "Isaiah F",
-        "description": "Personal projects that I've undertaken. Vlogs, short narratives, and other content.",
-        "url": "https://www.youtube.com/@IFVideos0726",
-        "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction", "Videography"],
-        "screenshot": "static/camera.png",
-        "button_text": "Isaiah F",
         "demo_url": "...",
         "type": "video"
       }
