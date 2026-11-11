@@ -1,9 +1,15 @@
 :root {
     --primary: #d9822b;
-    --secondary: #a85f17;
-    --background: #c9792e;
-    --text: #9a5a1f;
-    --accent: #1e7e34;
+    --secondary: #2c2c2c;
+    --background: #211d1a;
+    --text: #e6ddd3;      /* warm off-white for body text */
+    --muted: #b3a89c;     /* softer text for secondary info */
+    --accent: #a85f17;
+
+    /* Bootstrap's own variables, so its classes turn orange too */
+    --bs-primary: #d9822b;
+    --bs-primary-rgb: 217, 130, 43;
+    --bs-body-color: #e6ddd3;
 }
 html { scroll-behavior: smooth; }
 body {
