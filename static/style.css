@@ -40,7 +40,7 @@ body {
     padding: 96px 0 96px 0;
 }
 .section {
-  background: var(--background);
+  background: transparent;
 }
 .avatar {
     background: var(--secondary);
