@@ -260,18 +260,10 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 body {
-    background: #0b0f12; /* fallback while the image loads */
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    inset: -30px; /* oversize so blurred edges don't show */
-    z-index: -1;
     background:
         linear-gradient(rgba(11, 15, 18, 0.55), rgba(11, 15, 18, 0.55)),
-        url('websitebackground.jpg') center / cover no-repeat;
-    filter: blur(12px);
+        url('blurredbackground.jpg') top center / 100% auto repeat-y;
+    background-color: #0b0f12;
 }
 .project-card .card-body {
     display: flex;
