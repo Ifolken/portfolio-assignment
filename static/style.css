@@ -1,8 +1,8 @@
 :root {
-    --primary: #28a745;
-    --secondary: #2c2c2c;
-    --background: #1e2620;
-    --text: #d4dcdc;
+    --primary: #d9822b;
+    --secondary: #a85f17;
+    --background: #c9792e;
+    --text: #9a5a1f;
     --accent: #1e7e34;
 }
 html { scroll-behavior: smooth; }
