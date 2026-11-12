@@ -273,7 +273,7 @@ body {
     min-height: 100vh;
     background:
         linear-gradient(rgba(11, 15, 18, 0.55), rgba(11, 15, 18, 0.55)),
-        url('blurredbackground.jpg') center top / cover no-repeat;
+        url('blurredbackground.jpg') center top / 100% 100% no-repeat;
     background-color: #0b0f12;
 }
 .project-card .card-body {
