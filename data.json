@@ -42,6 +42,16 @@
         "button_text": "Stick Guys",
         "demo_url": "...",
         "type": "video"
+      },
+    {
+        "name": "Moody Music and Media Arts",
+        "description": "Filming and editing content for Moody Bible Institute's Worship collectives.",
+        "url": "https://www.youtube.com/watch?v=9BQcn8Qt_bY",
+        "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction"],
+        "screenshot": "static/camera.png",
+        "button_text": "Worship Collective Videos",
+        "demo_url": "...",
+        "type": "video"
       }
   ],
 "featured_videos": [
@@ -116,6 +126,12 @@
         "youtube_id": "YItEngsK4jE",
         "description": "A vlog-style wedding video done for friends!",
         "project": "Isaiah F"      
+    },
+    {
+        "name": "Everpraise - Bethlehem (Official Music Video)",
+        "youtube_id": "9BQcn8Qt_bY",
+        "description": "A music video for Everpraise's Christmas song.",
+        "project": "Moody Music and Media Arts"
     }
 ],
  "contact": {
