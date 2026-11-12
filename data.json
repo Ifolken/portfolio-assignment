@@ -15,7 +15,7 @@
 }  ,
     {
         "name": "Moody Music and Media Arts",
-        "description": "Filming and editing content for Moody Bible Institute's Worship collectives.",
+        "description": "Filming and editing content for Moody Bible Institute's Worship Collectives.",
         "url": "https://www.youtube.com/watch?v=9BQcn8Qt_bY",
         "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction"],
         "screenshot": "static/camera.png",
