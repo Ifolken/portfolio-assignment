@@ -265,10 +265,15 @@ html {
 body {
   transition: background 0.3s, color 0.3s;
 }
+html {
+    min-height: 100%;
+}
+
 body {
+    min-height: 100vh;
     background:
         linear-gradient(rgba(11, 15, 18, 0.55), rgba(11, 15, 18, 0.55)),
-        url('blurredbackground.jpg') top center / 100% auto repeat-y;
+        url('blurredbackground.jpg') center top / cover no-repeat;
     background-color: #0b0f12;
 }
 .project-card .card-body {
