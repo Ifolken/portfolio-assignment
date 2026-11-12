@@ -14,6 +14,16 @@
   "type": "video"
 }  ,
     {
+        "name": "Moody Music and Media Arts",
+        "description": "Filming and editing content for Moody Bible Institute's Worship collectives.",
+        "url": "https://www.youtube.com/watch?v=9BQcn8Qt_bY",
+        "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction"],
+        "screenshot": "static/camera.png",
+        "button_text": "Worship Collective Videos",
+        "demo_url": "...",
+        "type": "video"
+    },
+    {
       "name": "Isaiah F",
       "description": "Personal projects that I've undertaken. Vlogs, short narratives, and other content.",
       "url": "https://www.youtube.com/@IFVideos0726",
@@ -40,16 +50,6 @@
         "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction"],
         "screenshot": "static/camera.png",
         "button_text": "Stick Guys",
-        "demo_url": "...",
-        "type": "video"
-      },
-    {
-        "name": "Moody Music and Media Arts",
-        "description": "Filming and editing content for Moody Bible Institute's Worship collectives.",
-        "url": "https://www.youtube.com/watch?v=9BQcn8Qt_bY",
-        "tech_stack": ["Video Editing", "Adobe Premiere Pro", "Creative Direction"],
-        "screenshot": "static/camera.png",
-        "button_text": "Worship Collective Videos",
         "demo_url": "...",
         "type": "video"
       }
